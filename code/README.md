@@ -1,7 +1,7 @@
 # Solution
 
 ### 10121 -- All You Need Is Love
--	可用<bitset>來做binary與dec的轉換
+-	可用\<bitset\>來做binary與dec的轉換
 -	GCD算法
 
 ### 10122 -- Chest of Drawers
