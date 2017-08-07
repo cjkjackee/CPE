@@ -3,6 +3,8 @@
 ## pass year
 - https://drive.google.com/file/d/0B_eppOqZJyxCbFNDNVBtd1pXanc/view
 
+## Solution
+
 ### 10121 -- All You Need Is Love
 -	可用<bitset>來做binary與dec的轉換
 -	GCD算法
