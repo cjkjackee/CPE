@@ -22,6 +22,7 @@
 ### 10131 -- Exact Sum
 -	用set自動排序
 -	用set的upper bound抓最靠近的中間值然後慢慢算
+-	*小心不要再+同一個*
 
 ### 10207 -- Uncompress
 -	字串處理
