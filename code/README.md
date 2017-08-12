@@ -19,14 +19,19 @@
 -   字串處理不解釋
 -   利用multiset 的count，簡單的找出次數
 
+### 10131 -- Exact Sum
+-	用set自動排序
+-	用set的upper bound抓最靠近的中間值然後慢慢算
+
 ### 10207 -- Uncompress
 -	字串處理
 -	方法:
 	-	利用getchar抓每個字元,同時判斷是否是字母,把字母存如string
 	-	不是字母，if(!string.empty())把string存入vector,清空string
 	-	如果是數字，用cin.putback() 把char丟回去cin，抓int，用iterator算是vector第幾個，cout，push_back(\*it) 然後刪掉erase(it)
+-	測資好像有錯的
 
 ### 10215 -- Mine Sweeper
 -	存地圖，output x的地方
 -	vector的assign function 可快速把地圖換成數字的
--	並沒有碰到炸彈的test case
+-	並沒有碰到炸彈的case
