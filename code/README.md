@@ -36,3 +36,7 @@
 -	存地圖，output x的地方
 -	vector的assign function 可快速把地圖換成數字的
 -	並沒有碰到炸彈的case
+
+### 10225 -- Joseph's Cousin
+-	75分
+-	暴力解，取餘數，不重復數
