@@ -40,3 +40,10 @@
 ### 10225 -- Joseph's Cousin
 -	75分
 -	暴力解，取餘數，不重復數
+
+### 10235 -- Fibonacci Numbers
+-	大數運算
+-	不可用recursion，會TLE
+-	用vector<int> 來當大數，小心第一個'0'不會顯示
+-	<iomanip> 裏有setfill 和 setw，可控制output多少個字及填上什麼字
+	-	`cout << setfill('0') << setw(10) << 10 << endl;`
