@@ -47,3 +47,8 @@
 -	用vector<int> 來當大數，小心第一個'0'不會顯示
 -	\<iomanip\> 裏有setfill 和 setw，可控制output多少個字及填上什麼字
 	-	`cout << setfill('0') << setw(10) << 10 << endl;`
+
+### 10245 -- Minimum Path Sum
+-	不需要recursion
+-	在收圖的同時判斷now的上面一格和前面一個哪一個比較小，當前的值加上小的哪一格的值
+-	然後直接output最後一格就好了
