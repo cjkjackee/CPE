@@ -39,16 +39,24 @@
 
 ### 10225 -- Joseph's Cousin
 -	75分
--	暴力解，取餘數，不重復數
+-	暴力解
+-	*取餘數，不重復數*
 
 ### 10235 -- Fibonacci Numbers
 -	大數運算
--	不可用recursion，會TLE
+-	*不可用recursion，會TLE*
 -	用vector<int> 來當大數，小心第一個'0'不會顯示
 -	\<iomanip\> 裏有setfill 和 setw，可控制output多少個字及填上什麼字
 	-	`cout << setfill('0') << setw(10) << 10 << endl;`
 
 ### 10245 -- Minimum Path Sum
 -	不需要recursion
--	在收圖的同時判斷now的上面一格和前面一個哪一個比較小，當前的值加上小的哪一格的值
--	然後直接output最後一格就好了
+-	因爲是固定左上走到右下:
+	-	確定肯定只能走右一個||下一格
+	-	在收圖的同時判斷now的上面一格和前面一個哪一個比較小，當前的值加上小的哪一格的值
+	-	然後直接output最後一格就好了
+
+### 10326 -- Dungeon Master
+-	用queue做bfs
+-	不能因E在S的下層就無視上層
+-	有可能E在S的下層，但是上去一層後在下去更快的情況
